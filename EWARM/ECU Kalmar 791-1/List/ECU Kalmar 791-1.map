@@ -1,0 +1,526 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  23/May/2021  11:41:58
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba
+#        Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Exe\ECU
+#        Kalmar 791-1.out
+#    Map file     =
+#        E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba
+#        Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\List\ECU Kalmar 791-1.map
+#    Command line =
+#        -f C:\Users\i\AppData\Local\Temp\EWD2A7.tmp ("E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Obj\eeprom.o"
+#        "E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba
+#        Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\main.o" "E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume
+#        rotation\Rich Ba Volume Rotation\Rich Ba Volume rotation\EWARM\ECU
+#        Kalmar 791-1\Obj\startup_stm32f103xe.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_can.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_cortex.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_dma.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_exti.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_flash.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_flash_ex.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_gpio.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_gpio_ex.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_iwdg.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_msp.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_pwr.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_rcc.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_rcc_ex.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_hal_tim.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\stm32f1xx_hal_tim_ex.o" "E:\Back up\STM32\CANBUS\Rich
+#        kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume
+#        rotation\EWARM\ECU Kalmar 791-1\Obj\stm32f1xx_it.o" "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar
+#        791-1\Obj\system_stm32f1xx.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --no_out_extension -o "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Exe\ECU Kalmar
+#        791-1.out" --map "E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume
+#        rotation\Rich Ba Volume Rotation\Rich Ba Volume rotation\EWARM\ECU
+#        Kalmar 791-1\List\ECU Kalmar 791-1.map" --config "E:\Back
+#        up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume
+#        Rotation\Rich Ba Volume rotation\EWARM/stm32f103xe_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x130
+  .intvec            ro code   0x800'0000   0x130  startup_stm32f103xe.o [1]
+                             - 0x800'0130   0x130
+
+"P1":                                      0x2a34
+  .text              ro code   0x800'0130   0xeee  main.o [1]
+  .text              ro code   0x800'101e    0x3a  zero_init3.o [3]
+  .text              ro code   0x800'1058   0x60a  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'1662    0x2e  copy_init3.o [3]
+  .text              ro code   0x800'1690   0x1e4  stm32f1xx_hal_gpio.o [1]
+  .text              ro code   0x800'1874    0x24  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'1898   0x6fa  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'1f92    0x14  memset.o [3]
+  .text              ro code   0x800'1fa8    0xcc  stm32f1xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'2074   0x220  stm32f1xx_hal_msp.o [1]
+  .text              ro code   0x800'2294    0x44  stm32f1xx_hal_iwdg.o [1]
+  .text              ro code   0x800'22d8   0x496  stm32f1xx_hal_rcc.o [1]
+  .text              ro code   0x800'2770     0xc  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'277c     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'277e     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2780     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2782     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2784     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2786     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2788     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'278a     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'278c     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'278e     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2790     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2792     0x2  stm32f1xx_hal_can.o [1]
+  .text              ro code   0x800'2794    0xc4  stm32f1xx_hal_cortex.o [1]
+  .text              ro code   0x800'2858    0x40  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'2898     0x2  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'289a     0x2  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'289c     0x2  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'28a0    0x98  stm32f1xx_it.o [1]
+  .text              ro code   0x800'2938     0x2  stm32f1xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'293a     0x2  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'293c     0x2  stm32f1xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'293e     0x2  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'2940    0x66  ABImemset.o [3]
+  .text              ro code   0x800'29a8    0x10  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'29b8    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'29e0    0x24  - Linker created -
+  .text              ro code   0x800'2a04    0x1e  cmain.o [3]
+  .text              ro code   0x800'2a22     0x4  low_level_init.o [2]
+  .text              ro code   0x800'2a26     0x4  exit.o [2]
+  .text              ro code   0x800'2a2c     0xa  cexit.o [3]
+  .text              ro code   0x800'2a38    0x14  exit.o [4]
+  .text              ro code   0x800'2a4c    0x14  system_stm32f1xx.o [1]
+  .text              ro code   0x800'2a60    0x10  startup_stm32f103xe.o [1]
+  Initializer bytes  const     0x800'2a70    0x10  <for P2-1>
+  .text              ro code   0x800'2a80     0xc  cstartup_M.o [3]
+  .text              ro code   0x800'2a8c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2a90     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2a94     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2a98     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2a9c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2aa0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2aa4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2aa8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2aac     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ab0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ab4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ab8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2abc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ac0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ac4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ac8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2acc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ad0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ad4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ad8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2adc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ae0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ae4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2ae8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2aec     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2af0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2af4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2af8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2afc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b00     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b04     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b08     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b0c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b10     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b14     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b18     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b1c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b20     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b24     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b28     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b2c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b30     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b34     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b38     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b3c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b40     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b44     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b48     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b4c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b50     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b54     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b58     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b5c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code   0x800'2b60     0x4  startup_stm32f103xe.o [1]
+  .rodata            const     0x800'2b64     0x0  zero_init3.o [3]
+  .rodata            const     0x800'2b64     0x0  copy_init3.o [3]
+                             - 0x800'2b64  0x2a34
+
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32f1xx_hal.o [1]
+    .data            inited   0x2000'000c     0x4  system_stm32f1xx.o [1]
+                            - 0x2000'0010    0x10
+
+"P2", part 2 of 3:                          0x2e4
+  .bss               zero     0x2000'0010   0x210  main.o [1]
+  .bss               zero     0x2000'0220    0x68  main.o [1]
+  .bss               zero     0x2000'0288    0x28  main.o [1]
+  .bss               zero     0x2000'02b0    0x18  main.o [1]
+  .bss               zero     0x2000'02c8    0x18  main.o [1]
+  .bss               zero     0x2000'02e0     0xa  main.o [1]
+  .bss               zero     0x2000'02ec     0x8  main.o [1]
+                            - 0x2000'02f4   0x2e4
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'02f8   0x400  <Block>
+    CSTACK           uninit   0x2000'02f8   0x400  <Block tail>
+                            - 0x2000'06f8   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'2b64   0x807'ffff  0x7'd49c
+  0x2000'02f4  0x2000'02f7       0x4
+  0x2000'06f8  0x2000'ffff    0xf908
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2e4:
+          0x2000'0010  0x2e4
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'2a70   0x10
+    1 destination range, total size 0x10:
+          0x2000'0000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Obj: [1]
+    main.o                    3'822               738
+    startup_stm32f103xe.o       536
+    stm32f1xx_hal.o             128       12       12
+    stm32f1xx_hal_can.o       1'570
+    stm32f1xx_hal_cortex.o      196
+    stm32f1xx_hal_gpio.o        484
+    stm32f1xx_hal_iwdg.o         68
+    stm32f1xx_hal_msp.o         544
+    stm32f1xx_hal_rcc.o       1'174
+    stm32f1xx_hal_tim.o       1'796
+    stm32f1xx_hal_tim_ex.o      208
+    stm32f1xx_it.o              152
+    system_stm32f1xx.o           20        4        4
+    -------------------------------------------------
+    Total:                   10'698       16      754
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                      318
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         12                 2
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:             11'056       52    1'780
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'29e0          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2a04          --   Gb  - Linker created -
+?main                    0x800'2a05         Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'2a50   0x10  Data  Gb  system_stm32f1xx.o [1]
+Auto_20_40ft            0x2000'0221    0x1  Data  Gb  main.o [1]
+BusFault_Handler         0x800'28a7    0x2  Code  Gb  stm32f1xx_it.o [1]
+CAN_ST_flag             0x2000'022c    0x1  Data  Gb  main.o [1]
+CAN_Timer               0x2000'023f    0x1  Data  Gb  main.o [1]
+CCW_flag                0x2000'022b    0x1  Data  Gb  main.o [1]
+CSTACK$$Base            0x2000'02f8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'06f8          --   Gb  - Linker created -
+CW_flag                 0x2000'022a    0x1  Data  Gb  main.o [1]
+DAMP_SEN                0x2000'0232    0x1  Data  Gb  main.o [1]
+DebugMon_Handler         0x800'28ad    0x2  Code  Gb  stm32f1xx_it.o [1]
+HAL_CAN_ActivateNotification
+                         0x800'144f   0x16  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_AddTxMessage     0x800'1281   0xc4  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_ConfigFilter     0x800'114f   0xbc  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_GetRxMessage     0x800'1357   0xe4  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_IRQHandler       0x800'146b  0x1f8  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_Init             0x800'1059   0xe4  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_MspInit          0x800'20af   0x82  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_CAN_RxFifo0MsgPendingCallback
+                         0x800'0145  0x146  Code  Gb  main.o [1]
+HAL_CAN_Start            0x800'1219   0x4c  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_GPIO_Init            0x800'1691  0x194  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'1825    0xc  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'1831    0x8  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GetTick              0x800'2771    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IWDG_Init            0x800'2295   0x44  Code  Gb  stm32f1xx_hal_iwdg.o [1]
+HAL_IncTick              0x800'29a9   0x10  Code  Wk  stm32f1xx_hal.o [1]
+HAL_Init                 0x800'1875   0x20  Code  Gb  stm32f1xx_hal.o [1]
+HAL_InitTick             0x800'2859   0x40  Code  Wk  stm32f1xx_hal.o [1]
+HAL_MspInit              0x800'2075   0x3a  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'2803   0x16  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'27c9   0x3a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'27af   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig      0x800'25ed   0xf4  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'26f5   0x3a  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'275c   0x10  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'276c    0x2  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'22d9  0x30c  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'2819   0x28  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_TIMEx_BreakCallback
+                         0x800'2939    0x2  Code  Wk  stm32f1xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutCallback
+                         0x800'293d    0x2  Code  Wk  stm32f1xx_hal_tim_ex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'2021   0x54  Code  Gb  stm32f1xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'1fa9   0x62  Code  Gb  stm32f1xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'1899   0x1a  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'2131   0xd2  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_TIM_Base_Start_IT    0x800'18b3   0x6c  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                         0x800'1c6d   0x90  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_IRQHandler       0x800'1a65  0x142  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_MspPostInit      0x800'2213   0x4e  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'1bad   0xb4  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_PWM_Init         0x800'1945   0x1a  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_PWM_Start        0x800'195f   0x88  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'28d9   0x3a  Code  Gb  stm32f1xx_it.o [1]
+HardFault_Handler        0x800'28a3    0x2  Code  Gb  stm32f1xx_it.o [1]
+LOCK_L_SEN              0x2000'0234    0x1  Data  Gb  main.o [1]
+LOCK_R_SEN              0x2000'0236    0x1  Data  Gb  main.o [1]
+Locked_flag             0x2000'023c    0x1  Data  Gb  main.o [1]
+MemManage_Handler        0x800'28a5    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler              0x800'28a1    0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler           0x800'28af    0x2  Code  Gb  stm32f1xx_it.o [1]
+RUN_Timer               0x2000'023e    0x1  Data  Gb  main.o [1]
+Region$$Table$$Base      0x800'29e0          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2a04          --   Gb  - Linker created -
+Rotation                 0x800'0391   0xd2  Code  Gb  main.o [1]
+RxData                  0x2000'02e0    0x8  Data  Gb  main.o [1]
+RxHeader                0x2000'025c   0x1c  Data  Gb  main.o [1]
+RxHeader_Can_ST         0x2000'01e8   0x1c  Data  Gb  main.o [1]
+RxHeader_t              0x2000'0204   0x1c  Data  Gb  main.o [1]
+SEAT_L_FRONT            0x2000'022d    0x1  Data  Gb  main.o [1]
+SEAT_L_REAR             0x2000'0230    0x1  Data  Gb  main.o [1]
+SEAT_R_FRONT            0x2000'022e    0x1  Data  Gb  main.o [1]
+SEAT_R_REAR             0x2000'022f    0x1  Data  Gb  main.o [1]
+SPREAD_STOP_SEN         0x2000'0231    0x1  Data  Gb  main.o [1]
+SVC_Handler              0x800'28ab    0x2  Code  Gb  stm32f1xx_it.o [1]
+Status                   0x800'02a7   0xea  Code  Gb  main.o [1]
+SysTick_Handler          0x800'28b1    0x4  Code  Gb  stm32f1xx_it.o [1]
+SystemClock_Config       0x800'0fbb   0x5a  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f1xx.o [1]
+SystemInit               0x800'2a4d    0x2  Code  Gb  system_stm32f1xx.o [1]
+TIM2_IRQHandler          0x800'28bb    0x6  Code  Gb  stm32f1xx_it.o [1]
+TIM3_IRQHandler          0x800'28c1    0x6  Code  Gb  stm32f1xx_it.o [1]
+TIM4_IRQHandler          0x800'28c7    0x6  Code  Gb  stm32f1xx_it.o [1]
+TIM5_IRQHandler          0x800'28cd    0x6  Code  Gb  stm32f1xx_it.o [1]
+TIM6_IRQHandler          0x800'28d3    0x6  Code  Gb  stm32f1xx_it.o [1]
+TIM_Base_SetConfig       0x800'1d27   0x74  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_CCxChannelCmd        0x800'1f77   0x16  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_ETR_SetConfig        0x800'1f63   0x14  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_ITRx_SetConfig       0x800'1f53   0x10  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_OC1_SetConfig        0x800'1d9b   0x58  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_OC2_SetConfig        0x800'1df3   0x60  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_OC3_SetConfig        0x800'1e53   0x5e  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_OC4_SetConfig        0x800'1eb1   0x46  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                         0x800'1f11   0x1e  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                         0x800'1f2f   0x24  Code  Lc  stm32f1xx_hal_tim.o [1]
+Timer1                  0x2000'0252    0x2  Data  Gb  main.o [1]
+Timer2                  0x2000'0254    0x2  Data  Gb  main.o [1]
+Timer3                  0x2000'0256    0x2  Data  Gb  main.o [1]
+Timer4                  0x2000'0258    0x2  Data  Gb  main.o [1]
+TxData_heart_bit        0x2000'02ec    0x8  Data  Gb  main.o [1]
+TxData_status           0x2000'0240    0x8  Data  Gb  main.o [1]
+TxHeader_heart_bit      0x2000'02b0   0x18  Data  Gb  main.o [1]
+TxHeader_status         0x2000'02c8   0x18  Data  Gb  main.o [1]
+TxMailbox               0x2000'0284    0x4  Data  Gb  main.o [1]
+UNLOCK_L_SEN            0x2000'0233    0x1  Data  Gb  main.o [1]
+UNLOCK_R_SEN            0x2000'0235    0x1  Data  Gb  main.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                         0x800'28b5    0x6  Code  Gb  stm32f1xx_it.o [1]
+Unlocked_flag           0x2000'023d    0x1  Data  Gb  main.o [1]
+UsageFault_Handler       0x800'28a9    0x2  Code  Gb  stm32f1xx_it.o [1]
+Vol_Rotation            0x2000'0250    0x2  Data  Gb  main.o [1]
+__NVIC_SetPriority       0x800'2795   0x1a  Code  Lc  stm32f1xx_hal_cortex.o [1]
+__aeabi_memset           0x800'2941         Code  Gb  ABImemset.o [3]
+__cmain                  0x800'2a05         Code  Gb  cmain.o [3]
+__exit                   0x800'2a39   0x14  Code  Gb  exit.o [4]
+__iar_Memset             0x800'2941         Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'2949         Code  Gb  ABImemset.o [3]
+__iar_copy_init3         0x800'1663   0x2e  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'29b9   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'2a81         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'101f   0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'2a23    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f103xe.o [1]
+_call_main               0x800'2a11         Code  Gb  cmain.o [3]
+_exit                    0x800'2a2d         Code  Gb  cexit.o [3]
+_main                    0x800'2a1f         Code  Gb  cmain.o [3]
+exit                     0x800'2a27    0x4  Code  Gb  exit.o [2]
+flag_20ft               0x2000'0227    0x1  Data  Gb  main.o [1]
+flag_40ft               0x2000'0226    0x1  Data  Gb  main.o [1]
+hcan                    0x2000'0288   0x28  Data  Gb  main.o [1]
+heartbit                 0x800'028b   0x1c  Code  Gb  main.o [1]
+hiwdg                   0x2000'0278    0xc  Data  Gb  main.o [1]
+htim1                   0x2000'0038   0x48  Data  Gb  main.o [1]
+htim2                   0x2000'0080   0x48  Data  Gb  main.o [1]
+htim3                   0x2000'00c8   0x48  Data  Gb  main.o [1]
+htim4                   0x2000'0110   0x48  Data  Gb  main.o [1]
+htim5                   0x2000'0158   0x48  Data  Gb  main.o [1]
+htim6                   0x2000'01a0   0x48  Data  Gb  main.o [1]
+lock_button_flag        0x2000'0229    0x1  Data  Gb  main.o [1]
+lock_edge_flag          0x2000'02e9    0x1  Data  Gb  main.o [1]
+lock_safty_time         0x2000'0228    0x1  Data  Gb  main.o [1]
+main                     0x800'0a9d  0x46e  Code  Gb  main.o [1]
+map                      0x800'0131   0x14  Code  Gb  main.o [1]
+memset                   0x800'1f93   0x14  Code  Gb  memset.o [3]
+panel_lock_flag         0x2000'02e8    0x1  Data  Gb  main.o [1]
+pistol_flag             0x2000'0220    0x1  Data  Gb  main.o [1]
+pwm1_buff_D1            0x2000'0248    0x2  Data  Gb  main.o [1]
+pwm2_CW_D2              0x2000'024a    0x2  Data  Gb  main.o [1]
+pwm3_CCW_D3             0x2000'024c    0x2  Data  Gb  main.o [1]
+pwm4_buff_D4            0x2000'024e    0x2  Data  Gb  main.o [1]
+readgpio                 0x800'0463  0x514  Code  Gb  main.o [1]
+sFilterConfig           0x2000'0010   0x28  Data  Gb  main.o [1]
+seat_flag               0x2000'023b    0x1  Data  Gb  main.o [1]
+spreader_light          0x2000'0224    0x1  Data  Gb  main.o [1]
+tilt_lock               0x2000'0225    0x1  Data  Gb  main.o [1]
+to20ft_CMD              0x2000'0222    0x1  Data  Gb  main.o [1]
+to40ft_CMD              0x2000'0223    0x1  Data  Gb  main.o [1]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f1xx_hal.o [1]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f1xx_hal.o [1]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f1xx_hal.o [1]
+valve20ft               0x2000'0238    0x1  Data  Gb  main.o [1]
+valve40ft               0x2000'0237    0x1  Data  Gb  main.o [1]
+valve_Unlock            0x2000'0239    0x1  Data  Gb  main.o [1]
+valve_lock              0x2000'023a    0x1  Data  Gb  main.o [1]
+
+
+[1] = E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  11'056 bytes of readonly  code memory
+      52 bytes of readonly  data memory
+   1'780 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

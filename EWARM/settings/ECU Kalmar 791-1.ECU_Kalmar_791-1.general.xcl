@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armstlink2.dll" 
+
+"E:\Back up\STM32\CANBUS\Rich kalmar\Edit 10 volume rotation\Rich Ba Volume Rotation\Rich Ba Volume rotation\EWARM\ECU Kalmar 791-1\Exe\ECU Kalmar 791-1.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\ST\FlashSTM32F10xxE.board" 
+
+
+
+
